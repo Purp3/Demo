@@ -2812,7 +2812,7 @@ function library:Init()
                 column.main.Visible = false
             end
         end
-        self.main.Size = UDim2.new(0, 16 + ((#tab.columns < 2 and 2 or #tab.columns) * 239), 0, 625)
+        self.main.Size = UDim2.new(0, 16 + ((#tab.columns < 2 and 2 or #tab.columns) * 239), 0, 629)
         self.currentTab = tab
         tab.button.TextColor3 = library.flags["Menu Accent Color"]
         TweenService:Create(self.tabHighlight, TweenInfo.new(0.15), { Position = UDim2.fromOffset(tab.button.Position.X.Offset, 50), Size = UDim2.fromOffset(tab.button.AbsoluteSize.X, -1) }):Play()
