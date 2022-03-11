@@ -2672,8 +2672,8 @@ function library:Init()
     self.base.Parent = game:GetService"CoreGui"
     self.main = self:Create("ImageButton", {
         AutoButtonColor = false,
-        Position = UDim2.new(0, 100, 0, 46),
-        Size = UDim2.new(0, 90, 0, 90), --500, 600
+        Position = UDim2.new(0, 540, 0.1, 46),
+        Size = UDim2.new(0, 90, 0, 90),
         BackgroundColor3 = Color3.fromRGB(20, 20, 20),
         BorderColor3 = Color3.new(),
         ScaleType = Enum.ScaleType.Tile,
