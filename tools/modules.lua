@@ -19,6 +19,9 @@ local Client = {}; do
                 Client.Getupdater = debug.getupvalue(Client.Replication.getupdater, 1);
                 Client.Characters = debug.getupvalue(Client.Replication.getplayerhit, 1);
             end
+            if (rawget(Modules, "breakwindow")) then
+                Client.Windows = Modules;
+            end
             if (rawget(Modules, "firehitmarker")) then
                 Client.Effects = Modules;
             end
@@ -28,7 +31,7 @@ local Client = {}; do
                 Client.Loadmodules = Modules;
             end
         end
-        if (type(Client.Network) == "table" and type(Client.Camera) == "table" and type(Client.GameLogic) == "table" and type(Client.Character) == "table" and type(Client.Replication) == "table" and type(Client.Getupdater) == "table" and type(Client.Characters) == "table" and type(Client.Effects) == "table") then
+        if (type(Client.Network) == "table" and type(Client.Camera) == "table" and type(Client.GameLogic) == "table" and type(Client.Character) == "table" and type(Client.Replication) == "table" and type(Client.Getupdater) == "table" and type(Client.Characters) == "table" and type(Client.Windows) == "table" and type(Client.Effects) == "table") then
             break
         end
     end
