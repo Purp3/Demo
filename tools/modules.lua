@@ -27,11 +27,14 @@ local Client = {}; do
             end
         elseif (type(Modules) == "function") then
             local Name = debug.getinfo(Modules).name
-            if (Name == "loadmodules") then
-                Client.Loadmodules = Modules;
+            if (Name == "loadgun") then
+                Client.Getgun = Modules;
+            end
+            if (Name == "loadknife") then
+                Client.Getknife = Modules;
             end
         end
-        if (type(Client.Network) == "table" and type(Client.Camera) == "table" and type(Client.GameLogic) == "table" and type(Client.Character) == "table" and type(Client.Replication) == "table" and type(Client.Getupdater) == "table" and type(Client.Characters) == "table" and type(Client.Windows) == "table" and type(Client.Effects) == "table") then
+        if (type(Client.Network) == "table" and type(Client.Camera) == "table" and type(Client.GameLogic) == "table" and type(Client.Character) == "table" and type(Client.Replication) == "table" and type(Client.Getupdater) == "table" and type(Client.Characters) == "table" and type(Client.Windows) == "table" and type(Client.Effects) == "table" type(Client.Getgun) == "function" and type(Client.Getknife) == "function") then
             break
         end
     end
