@@ -40,4 +40,17 @@ local Client = {}; do
     end
 end
 Client.GunModules = game:GetService("ReplicatedStorage").GunModules:Clone();
+
+do
+    for Idx,Gun in pairs(debug.getupvalues(Client.Getgun)) do
+        if (type(Gun) == "function" and debug.getinfo(Gun).name == "gunbob") then
+            Client.GunIDX = Idx
+        end
+    end
+    for Idx,Knife in pairs(debug.getupvalues(Client.Getknife)) do
+        if (type(Knife) == "function" and debug.getinfo(Knife).name == "gunbob") then
+            Client.KnifeIDX = Idx
+        end
+    end
+end
 return Client;
