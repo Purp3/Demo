@@ -34,7 +34,7 @@ local Client = {}; do
                 Client.Getknife = Modules;
             end
         end
-        if (type(Client.Network) == "table" and type(Client.Camera) == "table" and type(Client.GameLogic) == "table" and type(Client.Character) == "table" and type(Client.Replication) == "table" and type(Client.Getupdater) == "table" and type(Client.Characters) == "table" and type(Client.Windows) == "table" and type(Client.Effects) == "table" type(Client.Getgun) == "function" and type(Client.Getknife) == "function") then
+        if (type(Client.Network) == "table" and type(Client.Camera) == "table" and type(Client.GameLogic) == "table" and type(Client.Character) == "table" and type(Client.Replication) == "table" and type(Client.Getupdater) == "table" and type(Client.Characters) == "table" and type(Client.Windows) == "table" and type(Client.Effects) == "table" and type(Client.Getgun) == "function" and type(Client.Getknife) == "function") then
             break
         end
     end
