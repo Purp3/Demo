@@ -27,3 +27,6 @@ Messages the user
 
 10. n!whitelist (TEAM ONLY)
 Gives the whitelisted role
+
+11. n!verify
+Verifies new users to the server
