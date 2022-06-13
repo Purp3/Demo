@@ -8,7 +8,7 @@ Sends the script
 Sends purchase link with instructions
 
 4. n!redeem 
-Redeem your purchase
+Redeems your purchase
 
 5. n!avatar
 Shows the avatar
