@@ -1,32 +1,23 @@
 1. n!help 
 Shows all commands
 
-2. n!script (BUYERS ONLY)
+2. n!script (USERS ONLY)
 Sends the script 
 
 3. n!buy
 Sends purchase link with instructions
 
 4. n!redeem 
-Sends you redeem instructions
+Redeem your purchase
 
 5. n!avatar
 Shows the avatar
 
-6. n!mute
-Mutes the user
+6. n!activate
+Activates your licence key to use nexus 
 
-7. n!kick
-Kicks the user
+7. n!uid-reset
+Resets your nexus account
 
-8. n!ban
-Bans the user
-
-9. n!message (TEAM ONLY)
-Messages the user
-
-10. n!whitelist (TEAM ONLY)
-Gives the whitelisted role
-
-11. n!verify
+8. n!verify
 Verifies new users to the server
