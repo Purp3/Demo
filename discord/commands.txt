@@ -21,3 +21,6 @@ Resets your nexus account
 
 8. n!verify
 Verifies new users to the server
+
+9. n!check-version
+Shows available versions
