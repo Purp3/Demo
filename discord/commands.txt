@@ -1,20 +1,20 @@
-01. n!help 
+01. n!help
 Shows all commands
 
 02. n!script
-Sends you the script 
+Sends you the script
 
 03. n!buy
 Sends you a purchase link with instructions
 
-04. n!redeem 
+04. n!redeem
 Redeems your purchase
 
 05. n!avatar
 Shows the avatar
 
 06. n!activate
-Activates your licence key to use nexus 
+Activates your licence key to use nexus
 
 07. n!uid-reset
 Resets your nexus user account
@@ -28,5 +28,8 @@ Shows available versions
 10. n!add-resell
 Gives you a resell role and access to a support channel
 
-10. n!remove-resell
+11. n!remove-resell
 Removes the resell role
+
+12. n!add-offer
+Shows available offers
